@@ -92,6 +92,82 @@
 
 .caption{font-size: 18px;
          color: grey;
-         
+}
 
+.fig {text-align: center;}
+
+.section2{background: #efe7eb;
+          height: 400px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.quotetxt {height: 250px;
+           width: 800px;
+           display: flex;
+           flex-direction: column;
+
+}
+
+.para2 {font-size: 36px;
+        font-style: italic;
+        color: #152937;
+        margin-bottom: 0;
+}
+
+.caption2{font-size: 25px;
+          font-weight: bold;
+          align-self: flex-end;
+          margin-right: 20px;
+}
+
+.section3 {height: 350px;
+
+}
+
+.sign-up-cont {height: 120px;
+    background: #3882F6;
+    margin: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txt-container {display: flex;
+                flex-direction: column;
+}
+
+.sign-up-txt {font-size: 30px;
+              font-weight: bold;
+              color: #f9faf8;
+              margin-bottom: 0;
+}
+
+.para3 {font-size: 18px;
+        font-weight: bolder;
+        color: #E5E7EB;
+        margin-top: 0;
+}
+
+.button2 {background: #3882F6;
+          color: #E5E7EB;
+          font-size: 15px;
+          font-weight: bold;
+          height: 32px;
+          width: 110px;
+          border: 2px solid white;
+          border-radius: 10px;
+}
+
+.footer{height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.footer-txt {font-size: 20px;
+             font-weight: bold;
+             color: #E5E7EB;
 }
