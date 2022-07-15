@@ -1,14 +1,17 @@
+body {font-family: 'Roboto', sans-serif;}
+
 #header {background: #1f2937;
-         height: 85px;
-         display: flex;
-         align-items: center;
-         justify-content: space-around;
-         flex: 0 1 40%;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex: 0 1 40%;
 }
 
 .header-logo {font-size: 24px;
               font-weight: bold;
               color: #f9faf8;
+              letter-spacing: 0.2em;
 }
 
 .nav-items {font-size: 18px;
@@ -37,7 +40,7 @@
              margin-bottom: 20px;
 }
 
-.maintxt {font-size: 48px;
+.hero-txt {font-size: 48px;
           font-weight: bolder;
           color: #f9faf8;
           margin-bottom: 0;
@@ -47,6 +50,7 @@
 .para1{font-size: 18px;
        color: #efe7eb;
        margin-top: 0;
+       
 }
 
 .button1{background-color: #3882f6;
@@ -56,7 +60,13 @@
          text-align: center;
          font-size: 15px;
          color: #efe7eb;
+         border: none;
          border-radius: 10px;
+         cursor: pointer;
+         transition: background 0.2s;
+}
+.button1:hover{background: darkblue;
+
 }
 
 .img-holder{height: 220px;
@@ -126,13 +136,14 @@
 
 }
 
-.sign-up-cont {height: 120px;
+.sign-up-cont {height: auto;
     background: #3882F6;
     margin: 150px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 1000px;
 }
 
 .txt-container {display: flex;
@@ -152,14 +163,20 @@
 }
 
 .button2 {background: #3882F6;
-          color: #E5E7EB;
-          font-size: 15px;
-          font-weight: bold;
-          height: 32px;
-          width: 110px;
-          border: 2px solid white;
-          border-radius: 10px;
+                color: #E5E7EB;
+                font-size: 15px;
+                font-weight: bold;
+                height: auto;
+                max-width: 130px;
+                padding: 8px;
+                border: 2px solid white;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: background 0.5s;
 }
+
+.button2:hover{background: darkblue;}
+
 
 #footer{height: 100px;
         background: #1f2937;
