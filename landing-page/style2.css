@@ -1,0 +1,97 @@
+body, html {height: 100%; font-family: Arial, Helvetica, sans-serif; margin: 0;}
+
+.hero {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("computer.jpg");
+       height: 90%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: relative;
+}
+
+.hero-container {color: white;
+                 text-align: center;
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%)
+}/*
+.form {background-color: #1b1b32;
+
+} 
+
+label {display: block;
+       margin: 0.5rem 0;
+       color: white;
+       font-size: 1.5em;
+
+}
+
+input {width: 300px;
+       height: 25px;
+}*/
+
+body {width: 100%;
+      height: 100vh;
+      margin: 0;
+}
+
+.form {background-color: #1f2937;
+      /* width: 30%;
+       height: auto;*/
+       padding: 1.5em;
+       text-align: center;
+       color: rgb(255, 255, 255);
+       margin-left: auto;
+       margin-right: auto;
+
+}
+
+
+div {margin: 10px;
+
+}
+
+.sign-up {font-size: 1.5em;
+          color: white;
+          font-family: sans-serif;
+          text-decoration: underline;
+}
+
+.practice {
+       width: 100%;
+       height: 300px;
+       background-color: #1f2937;
+       border-top: 5px solid black;
+       
+
+}
+
+.cont { background-color: red;
+       width: 100%;
+       height: 200px;
+      
+
+}
+
+.one { background: blue;
+      
+       
+}
+
+.two { background: green;
+
+}
+
+.three { background: yellow;
+
+}
+
+.img-div {background-color: white;
+          width: 100%;
+          height: 600px;
+
+}
+
+img {
+       margin: 40px;
+}

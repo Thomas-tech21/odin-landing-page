@@ -1,4 +1,4 @@
-body {font-family: 'Roboto', sans-serif;}
+body, html {margin: 0; height: 100%; font-family: 'Roboto', sans-serif;}
 
 #header {background: #1f2937;
         height: 85px;
@@ -6,20 +6,34 @@ body {font-family: 'Roboto', sans-serif;}
         align-items: center;
         justify-content: space-around;
         flex: 0 1 40%;
+        position: fixed;
+        width: 100%;
 }
 
-.header-logo {font-size: 24px;
+.header-logo {font-size: 28px;
               font-weight: bold;
               color: #f9faf8;
-              letter-spacing: 0.2em;
+              letter-spacing: 0.1em;
+              margin-left: 30px;
+              
 }
 
 .nav-items {font-size: 18px;
             color: #efe7eb;
+            list-style-type: none;
             }
 
 .items {display: inline;
-        padding-right: 20px;
+        padding-right: 20px
+}
+
+.links {color: #E5E7EB;
+        text-decoration: none;
+        transition: 0.3s;
+}
+
+.links:hover {font-size: 1.3em;
+              margin-left: 0;
 
 }
 
@@ -76,7 +90,9 @@ body {font-family: 'Roboto', sans-serif;}
             display: flex;
             align-items: center;
             justify-content: center;
+            
 }
+
 
 .header2 {font-size: 36px;
           font-weight: bold;
@@ -97,7 +113,14 @@ body {font-family: 'Roboto', sans-serif;}
               width: 150px;
               border: 5px solid #3882F6;
               border-radius: 10px;
+              transition: 0.5s;
+              cursor: pointer;
+              
 
+}
+.img-holder2:hover {
+        width: 250px;
+        height: 250px;
 }
 
 .caption{font-size: 18px;
@@ -111,6 +134,7 @@ body {font-family: 'Roboto', sans-serif;}
           display: flex;
           align-items: center;
           justify-content: center;
+          box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
 }
 
 .quotetxt {height: 250px;
@@ -171,7 +195,7 @@ body {font-family: 'Roboto', sans-serif;}
                 padding: 8px;
                 border: 2px solid white;
                 border-radius: 10px;
-                cursor: pointer;
+                
                 transition: background 0.5s;
 }
 
